@@ -10,7 +10,7 @@ const root = createRoot(container);
 // le pasamos el documento
 root.render(
   <React.StrictMode>
-    <PrimeraApp />
+    <PrimeraApp saludo="Hola soy Goku" />
   </React.StrictMode>);
 
 // If you want to start measuring performance in your app, pass a function
