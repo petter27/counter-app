@@ -1,6 +1,6 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
-import PrimeraApp from './PrimeraApp';
+import CounterApp from './CounterApp';
 import './index.css';
 
 
@@ -10,7 +10,7 @@ const root = createRoot(container);
 // le pasamos el documento
 root.render(
   <React.StrictMode>
-    <PrimeraApp saludo = "Hola Mundo!!!" />
+    <CounterApp value = { 123 }/>
   </React.StrictMode>);
 
 // If you want to start measuring performance in your app, pass a function
