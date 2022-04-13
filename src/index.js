@@ -10,7 +10,7 @@ const root = createRoot(container);
 // le pasamos el documento
 root.render(
   <React.StrictMode>
-    <CounterApp value = { 123 }/>
+    <CounterApp value = { 10 }/>
   </React.StrictMode>);
 
 // If you want to start measuring performance in your app, pass a function
