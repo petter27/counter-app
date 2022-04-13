@@ -13,4 +13,13 @@ describe('Pruebas en el archivo demo.test.js', ()=>{
     expect(mensaje).toBe(mensaje2); // ===
 
   });
+
+  test('Los arreglos no deben ser iguales', ()=>{
+    
+    const arreglo1 = ['Naranja', 'Amarillo', 'Morado'];
+    const arreglo2 = ['Rojo', 'Azul', 'Verde'];
+
+    expect(arreglo1).not.toEqual(expect.arrayContaining(arreglo2));
+
+  });
 });
