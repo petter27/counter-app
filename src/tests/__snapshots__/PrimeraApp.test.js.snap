@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en componente Primera App Debe de mostrar <PrimeraApp/> Correctamente 1`] = `
+<Fragment>
+  <h1>
+    Hola soy Goku
+  </h1>
+  <p>
+    Este es un proptype por default
+  </p>
+</Fragment>
+`;
