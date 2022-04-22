@@ -51,4 +51,16 @@ describe('Pruebas para el componente CounterApp', ()=>{
 
   });
 
+  test('Debe de colocar el valor por defecto', ()=>{
+
+    wrapper.find('button').at(0).simulate('click');
+    wrapper.find('button').at(0).simulate('click');
+    wrapper.find('button').at(1).simulate('click');
+
+    const valorInicial = 10;
+
+    expect( valorInicial ).toBe( parseInt(wrapper.find('h2').text().trim()));
+
+  })
+
 });
