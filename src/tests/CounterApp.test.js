@@ -4,8 +4,8 @@ import { shallow } from 'enzyme';
 
 describe('Pruebas para el componente CounterApp', ()=>{
 
-  let wrapper;// escope global y usado en multiples pruebas
-
+  let wrapper = shallow(<CounterApp />);// escope global y usado en multiples pruebas
+  // se duplica el wrapper para no perder el intellisense del editor de codigo (no es buena practica pero es muy util)
   // esta funcion se ejecuta antes de correo cada una de las pruebas y nos permite reiniciar componentes, etc.
   beforeEach(()=>{
     wrapper = shallow(<CounterApp />); 
