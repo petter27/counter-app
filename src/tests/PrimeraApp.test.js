@@ -1,5 +1,5 @@
-import React, { Suspense } from 'react';
-import { render } from '@testing-library/react';
+import React from 'react';
+//import { render } from '@testing-library/react';
 import PrimeraApp from '../PrimeraApp';
 import { shallow } from 'enzyme';
 
