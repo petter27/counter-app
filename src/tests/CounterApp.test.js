@@ -27,7 +27,6 @@ describe('Pruebas para el componente CounterApp', ()=>{
   });
 
   test('Debe de incrementar con el boton +1', ()=>{
-
     /*
     const btn1 = wrapper.find('button').at(0);
     console.log(btn1.html()); */
