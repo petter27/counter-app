@@ -6,7 +6,7 @@ exports[`Pruebas en componente Primera App Debe de mostrar <PrimeraApp/> Correct
     Hola soy Goku
   </h1>
   <p>
-    Este es un proptype por default
+    Soy un subtitulo
   </p>
 </Fragment>
 `;

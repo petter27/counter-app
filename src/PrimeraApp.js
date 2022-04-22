@@ -18,7 +18,7 @@ PrimeraApp.propTypes = {
 
 // esto lo que hace es crear los props o asignarles un valor por defecto cuando no se envia nada.
 PrimeraApp.defaultProps = {
-  subtitulo : 'Este es un proptype por default'
+  subtitulo : 'Soy un subtitulo'
 }
  
 export default PrimeraApp;
