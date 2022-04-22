@@ -9,7 +9,7 @@ const container = document.getElementById('root');
 const root = createRoot(container);
 
 // le pasamos el documento
-root.render(<CounterApp value = { 100 }/>);
+root.render(<CounterApp value = { 10 }/>);
 //root.render(<PrimeraApp saludo='Hola soy Goku'></PrimeraApp>);
 
 // If you want to start measuring performance in your app, pass a function
